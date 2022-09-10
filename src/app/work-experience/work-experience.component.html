@@ -2,14 +2,14 @@
 <ul *ngFor="let work of workExperience">
     <li>
         <tr>
-            <td>{{work.fecha}}</td>
-            <td>{{work.ubicacion}}</td>    
+            <td style="width: 120px; border: hidden">{{work.fecha}}</td>
+            <td style="border: hidden">{{work.ubicacion}}</td>    
         </tr>
         <tr>
-            <td>>{{work.empresa}}</td>
+            <td style="border: hidden">{{work.empresa}}</td>
         </tr>
         <tr>
-            <td>>{{work.puesto}}</td>
+            <td style="border: hidden">{{work.puesto}}</td>
         </tr>
         <h4>logros</h4>
         <ul *ngFor="let logro of work.logros">
