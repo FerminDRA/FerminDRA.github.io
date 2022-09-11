@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet');
+
+
 li {
     border-right: 1px solid black;
     float: left;
@@ -5,4 +9,13 @@ li {
     padding-left: 5px;
     padding-right: 5px;
     width: auto;
+}
+
+h3{
+    font-family: 'Trocchi', serif;
+    font-size: 130%;
+}
+
+li{
+    font-family: 'Reem Kufi', sans-serif;
 }

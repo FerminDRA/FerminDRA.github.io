@@ -1,13 +1,13 @@
-<h3>Educacion</h3>
+<h3 class="title">Educacion</h3>
 <ul *ngFor="let edu of education">
     <li>
-        <tr>
+        <tr class="fecha">
             {{edu.fecha}}
         </tr>
-        <tr>
-            <strong>{{edu.grado_educativo}}</strong>
+        <tr class=" grado">
+            {{edu.grado_educativo}}
         </tr>
-        <tr>
+        <tr class="universid">
             {{edu.universidad}}
         </tr>
     </li>
