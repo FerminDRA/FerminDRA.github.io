@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet');
+
 dl {
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@ dt {
     clear: both;
     display: block;
     float: left;
-    width: 154px;
+    width: 164px;
     height: 20px;
     line-height: 20px;
     margin-right: 17px;
@@ -39,10 +42,19 @@ wider browser compatibility */
     right: -5px;
     top: -2px;
     display: block;
-    background: white;
+    background: rgb(243, 238, 202);
     height: 24px;
     width: 6px;
     text-align: left;
     text-indent: -9999px;
     overflow: hidden;
  }
+
+ h3{
+    font-family: 'Trocchi', serif;
+    font-size: 130%;
+}
+
+dt{
+    font-family: 'Reem Kufi', sans-serif;
+}
