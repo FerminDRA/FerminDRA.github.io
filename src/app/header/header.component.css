@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet');
+
+.profileimg{
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+p{
+    font-family: 'Syne', sans-serif;
+
+}
+
+li{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.profile{
+    border: 2px solid #000;
+    border-radius: 100px
+    
+}
