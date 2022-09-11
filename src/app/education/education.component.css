@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet');
+
+.title{
+    font-family: 'Trocchi', serif;
+    font-size: 130%;
+}
+
+.fecha{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: small;
+    color: orangered;
+}
+
+.grado{
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.universid{
+    font-family: 'Reem Kufi', sans-serif;
+}
