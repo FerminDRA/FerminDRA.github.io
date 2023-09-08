@@ -24,9 +24,19 @@ export class CertificationsComponent implements OnInit {
     cerfificacion: "Certificacion como Proyect Management por el PMI(Proyect Management Institute)"
   };
 
+  let cert4 ={
+    cerfificacion: "Certificacion en Python de Kaggle"
+  };
+
+  let cert5 ={
+    cerfificacion: "Certificacion en Pandas de Kaggle"
+  };
+
 this.certifications.push(cert1);
 this.certifications.push(cert2);
 this.certifications.push(cert3)
+this.certifications.push(cert4)
+this.certifications.push(cert5)
   }
 
 }
