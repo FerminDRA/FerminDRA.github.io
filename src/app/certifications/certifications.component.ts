@@ -31,12 +31,20 @@ export class CertificationsComponent implements OnInit {
   let cert5 ={
     cerfificacion: "Certificacion en Pandas de Kaggle"
   };
+  let cert6 ={
+    cerfificacion: "Certificacion en Intermediate Machine Learning de Kaggle"
+  };
+  let cert7 ={
+    cerfificacion: "Certificacion en Intro to Machine Learning de Kaggle"
+  };
 
 this.certifications.push(cert1);
 this.certifications.push(cert2);
-this.certifications.push(cert3)
-this.certifications.push(cert4)
-this.certifications.push(cert5)
+this.certifications.push(cert3);
+this.certifications.push(cert4);
+this.certifications.push(cert5);
+this.certifications.push(cert6);
+this.certifications.push(cert7);
   }
 
 }
